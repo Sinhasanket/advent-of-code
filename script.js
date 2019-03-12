@@ -12,7 +12,7 @@ function question1(){
                return accumulator -=1;
            }
       },0)
-      console.log('floor is :'+answer);
+      console.log(answer);
   })
 }
 
@@ -34,7 +34,7 @@ function question2(){
           counter++;
           return accumulator < 0;
       })
-      console.log('Basement entered at :'+ counter);
+      console.log(counter);
   })
 }
 
